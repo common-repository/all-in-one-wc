@@ -1,0 +1,6 @@
+a.shipping-calculator-button {
+	visibility: hidden;
+}
+button[name=calc_shipping] {
+	visibility: hidden;
+}

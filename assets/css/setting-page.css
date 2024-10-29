@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --main-bg-color: #d9edf7;
+  --main-color: #333;
+  --base-font-size: 16px;
+  --fluid-typography-ratio: 0.9;
+  --rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
+  --main-font-family: 'Nunito Sans', sans-serif;
+}
+body{
+  background: var(--main-bg-color);  
+}
+body.woocommerce_page_wc-settings .wrap.woocommerce{
+	font-family: var(--main-font-family);
+  background: var(--main-bg-color);
+}
+body.woocommerce_page_wc-settings .wrap.woocommerce{
+  font-family: var(--main-font-family);
+  font-size: var(--base-font-size);
+}
+body.woocommerce_page_wc-settings .plugin-update-tr.active td, 
+body.woocommerce_page_wc-settings .plugins .active th.check-column {
+    border-left: 4px solid #31708f;
+}
+body.woocommerce_page_wc-settings .plugins .active td, 
+body.woocommerce_page_wc-settings .plugins .active th {
+    background-color: #6ec0f65c;
+}
+.woocommerce_page_wc-settings .notice-success, 
+.woocommerce_page_wc-settings div.updated {
+    border-left-color: #46b450;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+body.wp-core-ui .button-primary {
+    background: #004A87;
+    color: #FFF;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+body.woocommerce_page_wc-settings .woocommerce table.form-table input[type=email], 
+body.woocommerce_page_wc-settings .woocommerce table.form-table input[type=number], 
+body.woocommerce_page_wc-settings .woocommerce table.form-table input[type=text]{
+  padding: 8px;
+  border-radius: .3rem;
+}
+body.woocommerce_page_wc-settings .woocommerce table.form-table th {
+    font-weight: 800;
+}
+.nav-tab{
+  background: inherit;
+  border-color: #333;
+    border-bottom: 0px;
+}
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper{
+  border-bottom: 1px solid #00669b;
+}
+body.woocommerce_page_wc-settings .nav-tab.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover{
+  background: #fff;
+}
+ul.subsubsub:first-of-type a.current{
+    color: #000;
+    background: #00669b;
+    border-color: #00669b;
+    box-shadow: none;
+    color: #fff;
+    padding: 10px;
+    margin: 0 2px;
+}
+.woocommerce ul.subsubsub {
+    margin: 10px 0px;
+}
+ul.subsubsub:first-of-type a:hover,
+.body.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary.focus, 
+.wp-core-ui .button-primary.hover, 
+.wp-core-ui .button-primary:focus, 
+.wp-core-ui .button-primary:hover {
+    outline: 0;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    padding: 10px;
+}
+ul.subsubsub.sub_module li a {
+    border: 1px solid #333;
+    margin: 3px;
+    padding: 8px;
+}
+.subsubsub a.current {
+    font-weight: 800;
+}
+table.wp-list-table.widefat.plugins tr.active {
+    box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.11);
+}
+body.woocommerce_page_wc-settings .plugins .active td, body.woocommerce_page_wc-settings .plugins .active th {
+    background-color: #D1DCE4;
+}
+.widefat td, .widefat td ol, .widefat td p, .widefat td ul {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.wp-list-table a {
+    font-size: 14px;
+}
+.widefat tfoot tr td, .widefat tfoot tr th, .widefat thead tr td, .widefat thead tr th {
+    color: #32373c;
+    font-size: 14px;
+    font-weight: bold;
+}
+ul.ul_sub.subsubsub a{
+  border: 1px solid #333;
+  margin: 3px;
+  padding: 8px;
+}
+.woocommerce ul.subsubsub li{
+  margin:10px 0px;
+}
+ul.subsubsub.sub_module li a:hover{
+  color:#333;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "vendor/all-in-one-woocommerce",
+    "description": "All In One For WooCommerce",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "AIOW\\": "./includes",
+            "AIOW\\Admin\\": "./admin"
+        },
+         "files": [ "./global/functions.php" ]
+    },
+    "require": {
+        "setasign/fpdi": "^2.3",
+        "tecnickcom/tcpdf": "^6.3"
+    }
+}
